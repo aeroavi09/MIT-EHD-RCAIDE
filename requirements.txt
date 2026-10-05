@@ -1,0 +1,12 @@
+# RCAIDE with the EHD thruster. This is NOT on PyPI: the EHD propulsor lives on the author's fork.
+# Install it editable from a clone instead if you plan to modify it:
+#   git clone -b feature/ehd-propulsor https://github.com/aeroavi09/RCAIDE_LEADS.git && pip install -e RCAIDE_LEADS
+RCAIDE @ git+https://github.com/aeroavi09/RCAIDE_LEADS.git@61ae97f1c
+OpenVSP==3.47.0
+
+python==3.13
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+scikit-learn==1.9.1
+plotly==7.1.0
